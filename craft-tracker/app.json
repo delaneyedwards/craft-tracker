@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Craft Tracker",
+    "slug": "craft-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.crafttracker.app"
+    },
+    "android": {
+      "package": "com.crafttracker.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FAF8F3"
+      }
+    }
+  }
+}

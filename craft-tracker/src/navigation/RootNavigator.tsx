@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { CostumeListScreen } from '../screens/CostumeListScreen';
 import { CostumeDetailScreen } from '../screens/CostumeDetailScreen';
@@ -10,8 +10,8 @@ import { IdeaDetailScreen } from '../screens/IdeaDetailScreen';
 import { WorkbenchScreen } from '../screens/WorkbenchScreen';
 import { colors } from '../theme';
 
-const CostumesStack = createNativeStackNavigator();
-const WorkbenchStack = createNativeStackNavigator();
+const CostumesStack = createStackNavigator();
+const WorkbenchStack = createStackNavigator();
 const Tabs = createBottomTabNavigator();
 
 const screenOptions = {
